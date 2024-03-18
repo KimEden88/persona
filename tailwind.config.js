@@ -21,9 +21,11 @@ module.exports = {
       colors: {
         primary: "#131424",
         secondary: "#393A47",
-        accent: "#F13024",
+        accent: "#FF621F",
       },
       backgroundImage: {
+        space: 'url("/space.png")',
+        circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',
       },
       animation: {
