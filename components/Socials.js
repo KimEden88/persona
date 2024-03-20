@@ -9,12 +9,14 @@ const Socials = () => {
       <Link
         className="hover:text-accent transition-all duration-300"
         href={"https://www.linkedin.com/in/kim-eden/"}
+        target="_blank"
       >
         <RiLinkedinBoxFill />
       </Link>
       <Link
         className="hover:text-accent transition-all duration-300"
         href={"https://github.com/KimEden88"}
+        target="_blank"
       >
         <RiGithubFill />
       </Link>
