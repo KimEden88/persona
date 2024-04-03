@@ -9,9 +9,20 @@ import { useState } from "react";
 import Link from "next/link";
 
 //data
-const projects = [
+const projectsData = [
   {
-    title: "Memory cards",
+    title: "Quote Generator",
+    info: [
+      { description: "A Quote classic generator." },
+      {
+        stacks: [{ stack: "JavaScript" }, { stack: "HTML" }, { stack: "CSS" }],
+      },
+      { link: ["https://majestic-froyo-199364.netlify.app/"] },
+      { images: [] },
+    ],
+  },
+  {
+    title: "Memory Cards",
     info: [
       { description: "A Rick and Morty themed Memory cards Game." },
       {
@@ -22,30 +33,24 @@ const projects = [
     ],
   },
   {
-    title: "Memory cards",
+    title: "TaskMe ",
     info: [
-      { description: "A Rick and Morty themed Memory cards Game." },
+      { description: "A Trello Clone." },
       {
-        stacks: [{ stack: "React" }, { stack: "JavaScript" }, { stack: "CSS" }],
+        stacks: [
+          { stack: "Next.js" },
+          { stack: "Prisma" },
+          { stack: "Tailwind" },
+          { stack: "MySQL" },
+        ],
       },
-      { link: ["https://memory-cards-tau.vercel.app/"] },
-      { images: [] },
-    ],
-  },
-  {
-    title: "Memory cards",
-    info: [
-      { description: "A Rick and Morty themed Memory cards Game." },
-      {
-        stacks: [{ stack: "React" }, { stack: "JavaScript" }, { stack: "CSS" }],
-      },
-      { link: ["https://memory-cards-tau.vercel.app/"] },
+      { link: ["https://github.com/KimEden88/TaskMe"] },
       { images: [] },
     ],
   },
 ];
 
-const Work = () => {
+const Projects = () => {
   const [project, setProject] = useState(0);
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
@@ -90,7 +95,7 @@ const Work = () => {
           className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
         >
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
-            {projects.map((item, itemIndex) => {
+            {projectsData.map((item, itemIndex) => {
               return (
                 <div
                   key={itemIndex}
@@ -106,7 +111,7 @@ const Work = () => {
             })}
           </div>
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
-            {projects[project].info.map((item, itemIndex) => {
+            {projectsData[project].info.map((item, itemIndex) => {
               return (
                 <div
                   key={itemIndex}
@@ -154,4 +159,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;
