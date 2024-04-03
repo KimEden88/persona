@@ -148,9 +148,9 @@ const About = () => {
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl-px-0"
           >
             Three years ago, I embarked on my journey in software development,
-            and since then, I've delved into a diverse array of projects,
+            and since then, I&apos;ve delved into a diverse array of projects,
             continually innovating to produce designs that are both elegant and
-            efficient. Drawing from my extensive background as a chef, I've
+            efficient. Drawing from my extensive background as a chef, I&apos;ve
             cultivated a keen eye for detail, a resilient spirit, and an
             unwavering commitment to excellence. These invaluable qualities
             seamlessly integrate into my development work, allowing me to adapt

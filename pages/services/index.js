@@ -38,11 +38,11 @@ const Services = () => {
               applications using React and Next.js, my focus is on creating
               seamless, user-centric experiences. Whether you need a full-scale
               e-commerce platform, a performance-optimized business website, or
-              a consultation to enhance your project's UI/UX design, I'm here to
-              help. I also provide website maintenance, and personalized
-              teaching sessions in web development technologies. Let's work
-              together to build solutions that not only meet but exceed your
-              digital needs.
+              a consultation to enhance your project&apos;s UI/UX design,
+              I&apos;m here to help. I also provide website maintenance, and
+              personalized teaching sessions in web development technologies.
+              Let&apos;s work together to build solutions that not only meet but
+              exceed your digital needs.
             </motion.p>
           </div>
           <motion.div
